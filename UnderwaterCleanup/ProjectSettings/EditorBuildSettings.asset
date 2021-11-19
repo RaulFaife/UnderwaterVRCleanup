@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Kevin/_Scenes/Kevin_Sandbox.unity
+    guid: 245ff1fc9d9df9848bca66ff2544bd77
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed31d300e2d6a7044b81f553b797e0a5, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: eb593661c2b66cc469f31351cd76040d, type: 2}

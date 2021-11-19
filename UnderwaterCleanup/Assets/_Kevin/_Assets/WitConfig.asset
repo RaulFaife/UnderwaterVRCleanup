@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: WitConfig
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 0}
+    name: facebook_xr_hackathon
+    id: 3028055090746553
+    lang: en
+    isPrivate: 0
+    createdAt: 2021-11-18T15:54:22-0800
+  configId: 8337714663c9e304aaf70db0dc79c893
+  clientAccessToken: 7TDHYZ5EEFM3PDVOZPMEDSCDPYOTBVSL
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 4627604310654128
+    name: Trash
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: Garbage
+      synonyms:
+      - Garbage
+      - waste
+    - keyword: Waste
+      synonyms:
+      - Waste
+      - garbage
+    - keyword: filth
+      synonyms:
+      - filth
+    - keyword: trash
+      synonyms:
+      - trash
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 940818986819046
+    name: clean_trash
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 874164353265874
+      name: Trash:Trash
+      lookups: []
+      roles: []
+      keywords: []
+  traits: []
